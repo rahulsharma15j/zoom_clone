@@ -81,4 +81,27 @@ video {
 
 .main__chat_window {
   flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.main__message_container {
+  padding: 22px 12px;
+  display: flex;
+}
+
+.main__message_container input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  color: #f5f5f5;
+}
+
+.messages {
+  color: white;
+  list-style-type: none;
+}
+
+.unmute,
+.stop {
+  color: #eb534b;
 }
